@@ -1,0 +1,33 @@
+{
+  "name": "blckend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "axios": "^1.7.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "get-intrinsic": "^1.2.4",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5",
+    "object-inspect": "^1.13.3",
+    "openai": "^4.76.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.0.1"
+  },
+  "type": "module",
+  "description": ""
+}
